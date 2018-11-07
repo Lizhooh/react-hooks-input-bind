@@ -1,0 +1,21 @@
+{
+  "name": "react-hooks-input-bind",
+  "version": "1.0.0",
+  "description": "React hook for creating input values. Implement two-way binding of data.",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "author": "lizhooh",
+  "license": "MIT",
+  "keywords": [
+    "react-hooks",
+    "react-hooks-input",
+    "react-hooks-input-bind",
+    "hooks",
+    "hooks-input-bind"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lizhooh/react-hooks-input-bind"
+  }
+}
