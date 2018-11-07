@@ -15,6 +15,7 @@ npm install react@^16.7.0-alpha.0 react-dom@^16.7.0-alpha.0
 ### Usage
 
 ```js
+import React from 'react';
 import useBind from 'react-hooks-input-bind';
 
 export default () => {
@@ -41,13 +42,18 @@ export default () => {
 The initial value can also be a string, an array, a numeric value, and so on.
 
 ```js
-const [state, bind] = useBind(20);
-<input {...bind} />
-
 const [state, bind] = useBind('hello');
+<h3>{state}</h3>
 <input {...bind} />
 
-const [state, bind] = useBind([20, 21]);
+const [state, bind] = useBind(20);
+<h3>{state}</h3>
+<input {...bind} />
+
+const [state, bind] = useBind(['hello', 20]);
+<h3>{state[0]}</h3>
+<h3>{state[1]}</h3>
+
 <input {...bind[0]} />
 <input {...bind[1]} />
 ```
