@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-input-bind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hook for creating input values. Implement two-way binding of data.",
   "main": "index.js",
   "dependencies": {
